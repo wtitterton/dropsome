@@ -1,0 +1,70 @@
+
+
+
+.dragDropArea
+{
+	width: 100%;
+	min-height:500px;
+	border:1px solid #000;
+	display:flex;
+ 	align-items: center;
+ 	 justify-content: center;
+ 	 margin-top:100px;
+
+}
+
+
+
+
+
+
+
+.dragDropArea .photo-area
+{
+
+	text-align:center;
+	width:50%;
+	height:inherit;
+	border-box:box-sizing;
+}
+
+
+
+img.over {
+  border: 2px dashed #000;
+}
+
+
+img
+{
+	position:relative;
+	z-index:10;
+}
+
+
+.photo-area img
+{
+	width:150px;
+	height:150px;
+	margin:2px 0 0 2px;
+
+	overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
